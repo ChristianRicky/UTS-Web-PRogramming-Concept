@@ -20,3 +20,15 @@ body{
     transition: 150ms;
     transition-timing-function: ease-out;
 }
+.cursor:before{
+    content: '';
+    position: absolute;
+    background: rgb(253, 0, 0);
+    width: 100px;
+    height: 100px;
+    opacity: 0,2;
+    transform: translate(-30%, -30%);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
