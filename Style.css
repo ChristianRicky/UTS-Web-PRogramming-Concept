@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: darkblue;
+    place-items: center;
+}
+.cursor{
+    z-index: 999;
+    background-color: red;
+    position: fixed;
+    width:. 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 150ms;
+    transition-timing-function: ease-out;
+}
